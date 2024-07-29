@@ -65,9 +65,9 @@ function playRound(){
 }
 
 roundPlay.addEventListener("click", () => {
-  for(let i=0; i<5; i++){
+  // for(let i=0; i<5; i++){
     playRound();
-  }
+  // }
   console.log("Computer: "+computerScore);
   console.log("Human: "+humanScore);
 })
